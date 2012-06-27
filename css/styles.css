@@ -1,0 +1,32 @@
+.red,
+.blue {
+    width:100px;
+    height:100px;
+    overflow: hidden;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#container {
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+#container2 {
+    position: absolute;
+    top:10px;
+    left:400px;
+}
+
+#container3 {
+    position: absolute;
+    top:10px;
+    left:800px;
+}
