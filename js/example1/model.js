@@ -3,7 +3,7 @@
 (function(Backbone, _, $) {
     "use strict";
 
-    window.AppModel = Backbone.Model.extend({
+    window.AppModelExample1 = Backbone.Model.extend({
         defaults : {
             name : '',
             surname : 'Doe'

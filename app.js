@@ -1,9 +1,11 @@
-/*globals Backbone, _, jQuery, console, AppController */
+/*globals Backbone, _, jQuery, console, AppControllerExample1, AppControllerExample2 */
 
 (function(Backbone, _, $) {
     "use strict";
 
-       var controller = new AppController();
+       var controller = new AppControllerExample1();
+
+       var controller2 = new AppControllerExample2();
 
        /**
         * View

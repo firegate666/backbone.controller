@@ -3,7 +3,7 @@
 (function(Backbone, _, $) {
     "use strict";
 
-    window.AppView = Backbone.View.extend({
+    window.AppViewExample1 = Backbone.View.extend({
         events : {
             'click .red' : 'handleRedClick',
             'click .blue' : 'handleBlueClick'

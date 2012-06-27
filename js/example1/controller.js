@@ -1,19 +1,19 @@
-/*globals Backbone, _, jQuery, console, window, AppModel, AppView */
+/*globals Backbone, _, jQuery, console, window, AppModelExample1, AppViewExample1 */
 
 (function(Backbone, _, $) {
     "use strict";
 
-    window.AppController = function() {
+    window.AppControllerExample1 = function() {
         var _self = this,
             view, view2, view3, model;
 
         //Initialize
         (function() {
             //Model which is shared between 2 views
-            model = new AppModel({name : 'Anthony'});
+            model = new AppModelExample1({name : 'Anthony'});
 
             //View 1
-            view = new AppView({
+            view = new AppViewExample1({
                 el : $('#container'),
                 model : model,
                 controller : _self
@@ -21,15 +21,15 @@
             view.render();
 
             //View 2
-            view2 = new AppView({
+            view2 = new AppViewExample1({
                 el : $('#container2'),
-                model : new AppModel({name : 'Lukasz'}),
+                model : new AppModelExample1({name : 'Lukasz'}),
                 controller : _self
             });
             view2.render();
 
             //View 3
-            view3 = new AppView({
+            view3 = new AppViewExample1({
                 el : $('#container3'),
                 model : model,
                 controller : _self
