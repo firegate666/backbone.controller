@@ -14,6 +14,7 @@
         *
         * Controller
         * - All actions triggered by user goes trough controller which updates models
+        * - controller is not a subclass of the Backbone.Model and Backbone.Router
         *
         */
 
